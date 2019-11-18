@@ -45,7 +45,7 @@ describe("TEST RATE LIMITER", async () => {
 
   describe("release step", async () => {
     it("after 60 seconds, response mush be 1", async () => {
-      await delay(60);
+      await delay(61);
       const response = await request("http://127.0.0.1:3001/");
       assert.equal(response, "1");
     });
