@@ -1,0 +1,15 @@
+{
+  "name": "ratelimitapi-node-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "ioredis": "^4.14.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
