@@ -5,6 +5,10 @@
 - Use node.js v12
 - Use express v4.16
 
+## Require
+
+- docker
+
 ## Install
 
 ```bash
@@ -17,6 +21,8 @@ $ git clone <reop>
 
 ```
 $ npm install
+$ npm i -g mocha (for test)
+$ docker run -p 6379:6379 redis
 ```
 
 - Start
