@@ -1,0 +1,15 @@
+{
+  "REDIS": {
+    "SETTING": {
+      "cluster": "FALSE",
+      "hosts": "127.0.0.1:6379",
+      "tls": "FALSE",
+      "password": ""
+    }
+  },
+  "API": {
+    "PORT": 3001,
+    "RATE_LIMITER_TIME": 60,
+    "RATE_LIMITER_COUNT": 60
+  }
+}
